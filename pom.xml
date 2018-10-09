@@ -7,6 +7,14 @@
     <groupId>com.zhidian.cloud</groupId>
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
