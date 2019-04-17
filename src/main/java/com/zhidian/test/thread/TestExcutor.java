@@ -1,4 +1,4 @@
-package com.zhidian.test;
+package com.zhidian.test.thread;
 
 import java.util.concurrent.*;
 
@@ -51,5 +51,6 @@ public class TestExcutor {
         }
         long l2 = System.currentTimeMillis();
         System.out.println("一共花费：" + TimeUnit.SECONDS.convert(l2 - l1, TimeUnit.MILLISECONDS));
+
     }
 }
