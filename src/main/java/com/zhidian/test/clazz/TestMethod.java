@@ -12,7 +12,7 @@ public class TestMethod {
     }
 
     //反射获取的方法是方法区的一份拷贝，放在对内存，
-    //会优先遍历当前类
+    //会优先遍历当前类 public 方法，找不到找 父类（class or interface）
     public static void main(String[] args) throws Exception {
         Method target1 = TestMethod.class.getMethod("target", int.class);
         Method target2 = TestMethod.class.getMethod("target", int.class);
